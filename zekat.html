@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZekatChain Bağış Sayfası</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container mt-5">
+    <h2>ZekatChain'e Hoş Geldiniz!</h2>
+    <p>
+        ZekatChain, blokzincir teknolojisiyle zekat verme sürecini dijitalleştiren ve şeffaf bir şekilde kaydeden bir platformdur.
+        Zekatlarınızı verirken aynı zamanda işlemlerinizin Ethereum blokzincirinde kalıcı olarak kaydedildiğini görebilirsiniz.
+    </p>
+
+    <div class="mt-4">
+        <label for="amount">Bağış Miktarınızı Girin (ETH):</label>
+        <input type="number" class="form-control" id="amount" placeholder="Bağış Miktarı" name="amount" step="0.01" min="0.01">
+    </div>
+
+    <button class="btn btn-primary mt-3" onclick="donate()">Bağış Yap</button>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="web3.min.js"></script>
+<script src="donate.js"></script>
+</body>
+</html>
