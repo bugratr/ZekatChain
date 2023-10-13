@@ -1,0 +1,12 @@
+CREATE DATABASE ZekatChain;
+
+USE ZekatChain;
+
+CREATE TABLE Applicants (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    tc_kimlik VARCHAR(11) NOT NULL UNIQUE,
+    email VARCHAR(255) NOT NULL UNIQUE,
+    phone VARCHAR(15) NOT NULL UNIQUE,
+    document_path VARCHAR(512)
+);
