@@ -6,7 +6,7 @@ ZekatChain, blokzincir teknolojisiyle zekat verme sürecini dijitalleştiren ve 
 
 - **Dijital Zekat Kaydı**: Zekatınızı verirken, işleminiz Ethereum blokzincirine kaydedilir.
 - **Şeffaflık**: Tüm işlemler blokzincirde kamuya açık olarak saklandığı için şeffaflık sağlanır.
-- **Güvenli ve Merkezi Olmayan**: ZekatChain, Ethereum blokzinciri üzerinde çalıştığı için, veriler merkezi olmayan bir şekilde saklanır ve değiştirilemez.
+- **Güvenli ve Merkezi Olmayan**: ZekatChain, Polygon blokzinciri üzerinde çalıştığı için, veriler merkezi olmayan bir şekilde saklanır ve değiştirilemez.
   
 ## Teknoloji Stack
 
